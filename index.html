@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Cha Bubble Tea</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=1024">
+  <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="ChaBubbleTea_css.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-custom navbar-light navbar-expand-lg">
+    <p class="navbar-brand" style="color: white; font-size: 23px; padding-right: 5px; margin: 0;">
+      <img src="logo.png" style="height: 25px; width: 25px; display: inline-block"> Cha Bubble Tea 
+    </p>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="navbar-toggler-icon"></i>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarToggler">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item"><a class="nav-link" href="#Home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#Menu">Menu</a></li>
+        <li class="nav-item"><a class="nav-link" href="#Address">Address</a></li>
+        <li class="nav-item"><a class="nav-link" href="#About">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#Hours">Hours</a></li>
+        <li class="nav-item"><a class="nav-link" href="#Contact">Contact Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="#Order">Order Now!</a></li>
+      </ul>
+      <ul class="navbar-nav">
+        <li class="nav-item "><a class="nav-link" href="https://www.instagram.com/bubbleteatulsa/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+        <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/bubbleteatulsa/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div id="main">
+    <div class="container-fluid" id="Home">
+      <div class="row">
+        <div class="col-lg">
+          <div class="slideshow">
+            <i id="prevBtn" class="fa fa-chevron-left" aria-hidden="true"></i>
+            <div class="slideshow-images">
+              <img id="last-clone" src="Tiger Sugar Milk Tea.jpg" alt="">
+              <img src="Mango Black Milk Tea.jpg" alt="">
+              <img src="cha(3).PNG" alt="">
+              <img src="cha(4).PNG" alt="">
+              <img src="cha(7).PNG" alt="">
+              <img src="Kiwi Punch with Pineapple Whip (new rainbow jelly).jpg" alt="">
+              <img src="Matcha Milk Tea with Boba and Red Bean.jpg" alt="">
+              <img src="Mochi Ice Cream.jpg" alt="">
+              <img src="Mochi Pops.jpg" alt="">
+              <img src="Oolong Milk Tea.jpg" alt="">
+              <img src="Peach-Mango Punch (Pango Punch).jpg" alt="">
+              <img src="Pinacolada Slush.jpg" alt="">
+              <img src="Sparkling Passion Lemonade.jpg" alt="">
+              <img src="Strawberry Lemonade.jpg" alt="">
+              <img src="Strawberry Matcha Latte.jpg" alt="">
+              <img src="Strawberry Watermelom Lemonade.jpg" alt="">
+              <img src="Taro Slush.jpg" alt="">
+              <img src="Thai Tea.jpg" alt="">
+              <img src="Tiger Sugar Milk Tea.jpg" alt="">
+              <img id="first-clone" src="Mango Black Milk Tea.jpg" alt="">
+            </div>
+            <i id="nextBtn" class="fa fa-chevron-right" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div id='description' style="text-align: center;" class="col-lg">
+          description_1
+        </div>
+      </div>
+    </div>
+
+    <p class="heading" id="Menu">Menu</p>
+    <p>Pick an item!</p>
+
+    <img style="box-shadow: 10px 10px 5px #214d43; width: 99%;" src="menu.PNG" usemap="#menu-map">
+
+    <map name="menu-map">
+      <area target="" alt="Upgrade To Large" title="Upgrade To Large" href="#Home" coords="19,526,276,615" shape="rect">
+      <area target="" alt="Strawberry Match Latte" title="Strawberry Match Latte" href="#Home" coords="289,68,511,96" shape="rect">
+      <area target="" alt="Thai Tea" title="Thai Tea" href="#Home" coords="289,98,511,128" shape="rect">
+      <area target="" alt="Taro Milk Tea" title="Taro Milk Tea" href="#Home" coords="289,128,511,156" shape="rect">
+      <area target="" alt="Taro Slush" title="Taro Slush" href="#Home" coords="289,155,511,184" shape="rect">
+      <area target="" alt="Black Tea" title="Black Tea" href="#Home" coords="286,287,468,316" shape="rect">
+      <area target="" alt="Jasmine Tea" title="Jasmine Tea" href="#Home" coords="286,313,468,343" shape="rect">
+      <area target="" alt="Oolong Tea" title="Oolong Tea" href="#Home" coords="286,342,468,369" shape="rect">
+      <area target="" alt="Honey Black Tea" title="Honey Black Tea" href="#Home" coords="286,369,468,398" shape="rect">
+      <area target="" alt="Honey Green Tea" title="Honey Green Tea" href="#Home" coords="286,396,468,425" shape="rect">
+      <area target="" alt="Honey Oolong Tea" title="Honey Oolong Tea" href="#Home" coords="286,424,468,451" shape="rect">
+      <area target="" alt="Vietnamese Coffee" title="Vietnamese Coffee" href="#Home" coords="286,451,468,477" shape="rect">
+      <area target="" alt="Citron Tea" title="Citron Tea" href="#Home" coords="286,478,468,505" shape="rect">
+      <area target="" alt="Black Milk Tea" title="Black Milk Tea" href="#Home" coords="538,50,726,78" shape="rect">
+      <area target="" alt="Jasmine Milk Tea" title="Jasmine Milk Tea" href="#Home" coords="538,77,726,102" shape="rect">
+      <area target="" alt="Oolong Milk Tea" title="Oolong Milk Tea" href="#Home" coords="538,102,726,126" shape="rect">
+      <area target="" alt="Honey Black Milk Tea" title="Honey Black Milk Tea" href="#Home" coords="538,126,726,156" shape="rect">
+      <area target="" alt="Honey Green Milk Tea" title="Honey Green Milk Tea" href="#Home" coords="538,156,726,184" shape="rect">
+      <area target="" alt="Honey Oolong Milk Tea" title="Honey Oolong Milk Tea" href="#Home" coords="538,185,726,213" shape="rect">
+      <area target="" alt="Ube Milk Tea" title="Ube Milk Tea" href="#Home" coords="538,213,726,237" shape="rect">
+      <area target="" alt="Coffee Milk Tea" title="Coffee Milk Tea" href="#Home" coords="538,236,726,263" shape="rect">
+      <area target="" alt="Coconut Milk Tea" title="Coconut Milk Tea" href="#Home" coords="538,263,726,292" shape="rect">
+      <area target="" alt="Almond Milk Tea" title="Almond Milk Tea" href="#Home" coords="538,292,726,318" shape="rect">
+      <area target="" alt="Honeydew Milk Tea" title="Honeydew Milk Tea" href="#Home" coords="538,318,726,348" shape="rect">
+      <area target="" alt="Strawberry Milk Tea" title="Strawberry Milk Tea" href="#Home" coords="538,346,726,374" shape="rect">
+      <area target="" alt="Peach Milk Tea" title="Peach Milk Tea" href="#Home" coords="538,374,726,400" shape="rect">
+      <area target="" alt="Matcha Milk Tea" title="Matcha Milk Tea" href="#Home" coords="538,400,726,427" shape="rect">
+      <area target="" alt="Sea Salt Jasmine" title="Sea Salt Jasmine" href="#Home" coords="542,485,728,512" shape="rect">
+      <area target="" alt="Sea Salt Oolong" title="Sea Salt Oolong" href="#Home" coords="542,509,728,537" shape="rect">
+      <area target="" alt="Sea Salt Coffee" title="Sea Salt Coffee" href="#Home" coords="542,537,728,565" shape="rect">
+      <area target="" alt="Sea Salt Mocha" title="Sea Salt Mocha" href="#Home" coords="542,565,728,589" shape="rect">
+      <area target="" alt="Lemon Black Tea" title="Lemon Black Tea" href="#Home" coords="785,46,1006,73" shape="rect">
+      <area target="" alt="Honey Lemon Green Tea" title="Honey Lemon Green Tea" href="#Home" coords="785,73,1006,102" shape="rect">
+      <area target="" alt="Mango Green Tea" title="Mango Green Tea" href="#Home" coords="785,102,1006,129" shape="rect">
+      <area target="" alt="Pineapple Green Tea" title="Pineapple Green Tea" href="#Home" coords="785,129,1006,154" shape="rect">
+      <area target="" alt="Pineapple Lemonade" title="Pineapple Lemonade" href="#Home" coords="785,154,1006,180" shape="rect">
+      <area target="" alt="Peach Oolong" title="Peach Oolong" href="#Home" coords="785,180,1006,209" shape="rect">
+      <area target="" alt="Strawberry Lemon Green Tea" title="Strawberry Lemon Green Tea" href="#Home" coords="785,209,1006,235" shape="rect">
+      <area target="" alt="Peach/Passion Fruit Green Tea" title="Peach/Passion Fruit Green Tea" href="#Home" coords="785,235,1006,261" shape="rect">
+      <area target="" alt="Mango Orange Green Tea" title="Mango Orange Green Tea" href="#Home" coords="785,261,1006,288" shape="rect">
+      <area target="" alt="Yogurt Green Tea" title="Yogurt Green Tea" href="#Home" coords="785,367,1006,393" shape="rect">
+      <area target="" alt="Yogurt Orange" title="Yogurt Orange" href="#Home" coords="785,390,1006,422" shape="rect">
+      <area target="" alt="Yogurt Lemonade" title="Yogurt Lemonade" href="#Home" coords="785,423,1006,448" shape="rect">
+      <area target="" alt="Yogurt Passion Fruit" title="Yogurt Passion Fruit" href="#Home" coords="785,448,1006,476" shape="rect">
+      <area target="" alt="Yogurt Peach" title="Yogurt Peach" href="#Home" coords="785,476,1006,502" shape="rect">
+      <area target="" alt="Ube" title="Ube" href="#Home" coords="1062,46,1246,72" shape="rect">
+      <area target="" alt="Coffee" title="Coffee" href="#Home" coords="1062,70,1246,98" shape="rect">
+      <area target="" alt="Mocha" title="Mocha" href="#Home" coords="1062,96,1246,124" shape="rect">
+      <area target="" alt="Mango" title="Mango" href="#Home" coords="1062,123,1246,152" shape="rect">
+      <area target="" alt="Strawberry" title="Strawberry" href="#Home" coords="1062,153,1246,182" shape="rect">
+      <area target="" alt="Pina Colada" title="Pina Colada" href="#Home" coords="1062,182,1246,209" shape="rect">
+      <area target="" alt="Matcha Red Bean" title="Matcha Red Bean" href="#Home" coords="1062,208,1246,235" shape="rect">
+      <area target="" alt="Toppings" title="Toppings" href="#Home" coords="1278,14,1411,44" shape="rect">
+      <area target="" alt="Upgrade To Large" title="Upgrade To Large" href="#Home" coords="19,526,276,615" shape="rect">
+      <area target="" alt="Boba" title="Boba" href="#Home" coords="1322,43,1367,67" shape="rect">
+      <area target="" alt="Red Bean" title="Red Bean" href="#Home" coords="1314,67,1380,92" shape="rect">
+      <area target="" alt="Mango Jelly" title="Mango Jelly" href="#Home" coords="1304,92,1387,119" shape="rect">
+      <area target="" alt="Passion Fruit Jelly" title="Passion Fruit Jelly" href="#Home" coords="1287,118,1404,144" shape="rect">
+      <area target="" alt="Aloe Jelly" title="Aloe Jelly" href="#Home" coords="1309,144,1385,167" shape="rect">
+      <area target="" alt="Oreo" title="Oreo" href="#Home" coords="1322,167,1372,192" shape="rect">
+      <area target="" alt="Premium Toppings" title="Premium Toppings" href="#Home" coords="1273,207,1419,266" shape="rect">
+      <area target="" alt="Pudding" title="Pudding" href="#Home" coords="1316,266,1377,295" shape="rect">
+      <area target="" alt="Herbal Jelly" title="Herbal Jelly" href="#Home" coords="1307,294,1387,317" shape="rect">
+      <area target="" alt="Lychee Popping Pearls" title="Lychee Popping Pearls" href="#Home" coords="1277,317,1417,345" shape="rect">
+      <area target="" alt="Peach Popping Pearls" title="Peach Popping Pearls" href="#Home" coords="1275,345,1419,369" shape="rect">
+      <area target="" alt="Orange Popping Pearls" title="Orange Popping Pearls" href="#Home" coords="1275,369,1420,394" shape="rect">
+      <area target="" alt="Sea Salt Whip" title="Sea Salt Whip" href="#Home" coords="1296,394,1397,419" shape="rect">
+    </map>
+
+    <p class="heading" id="Address">Address</p>
+    <p>8246 E 71st St, Tulsa, OK 74133</p>
+    <div>
+      <div id="map"></div>
+    </div>
+    
+    <p class="heading" id="About">About</p>
+    <p>
+      "Locally owned small business that specializes in bubble <br> tea and coffee. Committed to serving quality drinks
+      and <br> building relationships and a community with our customers."
+    </p>
+
+    <p class="heading" id="Hours">Business Hours</p>
+    <p>Monday - Thursday | 11AM-10PM</p>
+    <p>Friday - Saturday | 11AM-11PM</p>
+    <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSunday&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp| 12PM-10PM</p>
+
+    <p class="heading" id="Contact">Contact Us</p>
+    <p>Phone Number | 918-806-6855</p>
+
+    <p class="heading" id="Order">Order Online Here!</p>
+    <div class="row" style="width: 85%; margin:auto;">
+      <form class="needs-validation" novalidate>
+        <div class="form-row">
+          
+          <div class="col-md-3 mb-3">
+            <label for="item">Pick an Item</label>
+            <select id="item" class="form-control" required>
+              <option selected value> -- Select an Item -- </option>
+              <optgroup label="Milk Tea">
+                <option value="Tiger Sugar Milk Tea">Tiger Sugar Milk Tea</option>
+                <option value="Mango Black Milk Tea">Mango Black Milk Tea</option>
+                <option value="Man Black Milk Tea">Man Black Milk Tea</option>
+                <option value="Oolong Milk Tea">Oolong Milk Tea</option>
+                <option value="Matcha Milk Tea">Matcha Milk Tea</option>
+                <option value="Thai Tea">Thai Tea</option>  
+              </optgroup>
+              <optgroup label="Cha">
+                <option value="cha 3">cha 3</option>
+                <option value="cha 4">cha 4</option>
+                <option value="cha 7">cha 7</option>
+              </optgroup>
+              <optgroup label="Punch">
+                <option value="Kiwi Punch">Kiwi Punch</option>
+                <option value="Peach-Mango Punch (Pango Punch)">Peach-Mango Punch (Pango Punch)</option>
+              </optgroup>
+              <optgroup label="Slush">
+                <option value="Pinacolada Slush">Pinacolada Slush</option>
+                <option value="Taro Slush">Taro Slush</option>    
+              </optgroup>
+              <optgroup label="Coffee">
+                <option value="Strawberry Matcha Latte">Strawberry Matcha Latte</option>
+              </optgroup>
+              <optgroup label="Lemonade">
+                <option value="Sparking Passion Lemonade">Sparking Passion Lemonade</option>
+                <option value="Strawberry Lemonade">Strawberry Lemonade</option>
+                <option value="Strawberry Watermelon Lemonade">Strawberry Watermelon Lemonade</option>  
+              </optgroup>
+              <optgroup label="Frozen Items">
+                <option value="Mochi Ice Cream">Mochi Ice Cream</option>
+                <option value="Mochi Pops">Mochi Pops</option>
+              </optgroup>            
+            </select>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+            <div class="invalid-feedback">
+              Please pick an item.
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-3">
+            <label for="topping">Pick a Topping (Optional)</label>
+            <select id="topping" class="form-control">
+              <option selected value> -- Select a Topping -- </option>
+              <option value="Boba">Boba</option>
+              <option value="Red Bean">Red Bean</option>
+              <option value="Mango Jelly">Mango Jelly</option>
+              <option value="Passion Fruit Jelly">Passion Fruit Jelly</option>
+              <option value="Aloe Jelly">Aloe Jelly</option>
+              <option value="Oreo">Oreo</option>
+            </select>
+          </div>
+
+
+        </div>
+
+        <div class="form-row">
+          <div class="col-md-3 mb-3">
+            <label for="fname">First name</label>
+            <input type="text" class="form-control" id="fname" placeholder="First name" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+            <div class="invalid-feedback">
+              Please enter your first name.
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="lname">Last name</label>
+            <input type="text" class="form-control" id="lname" placeholder="Last name" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+            <div class="invalid-feedback">
+              Please enter your last name.
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-3">
+            <label for="phone">Phone Number</label>
+            <input type="tel" class="form-control" id="phone" maxlength="10" pattern="[0-9]{10}" placeholder="Phone number">
+            <div class="invalid-feedback">
+              Please enter a valid phone number.
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-3">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="johndoe@example.com" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+            <div class="invalid-feedback">
+              Please enter a valid email.
+            </div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-md-5 mb-3">
+            <label for="ordadd">Address</label>
+            <input type="text" class="form-control" id="ordadd" placeholder="Address" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+            <div class="invalid-feedback">
+              Please provide an address.
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="city">City</label>
+            <input type="text" class="form-control" id="city" placeholder="City" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+            <div class="invalid-feedback">
+              Please provide a city.
+            </div>
+          </div>
+          <div class="col-md-2 mb-3">
+            <label for="state">State</label>
+            <select id="state" class="form-control" required>
+              <option value="OK">Oklahoma</option>
+            </select>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-2 mb-3">
+            <label for="zip">Zip</label>
+            <input type="text" class="form-control" id="zip" maxlength="5" pattern="[0-9]{5}" placeholder="Zip" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+            <div class="invalid-feedback">
+              Please provide a valid zip.
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-primary" type="submit">Submit order</button>
+      </form>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="row" style="width:85%; margin:auto;">
+      <div class="col-md-4 order-md-2 mb-4">
+        <h4 class="d-flex justify-content-between align-items-center mb-3">
+          <span class="text-muted">Your cart</span>
+          <span class="badge badge-secondary badge-pill">3</span>
+        </h4>
+        <ul class="list-group mb-3">
+          <li class="list-group-item d-flex justify-content-between lh-condensed">
+            <div>
+              <h6 class="my-0">Product name</h6>
+              <small class="text-muted">Brief description</small>
+            </div>
+            <span class="text-muted">$12</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between lh-condensed">
+            <div>
+              <h6 class="my-0">Second product</h6>
+              <small class="text-muted">Brief description</small>
+            </div>
+            <span class="text-muted">$8</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between lh-condensed">
+            <div>
+              <h6 class="my-0">Third item</h6>
+              <small class="text-muted">Brief description</small>
+            </div>
+            <span class="text-muted">$5</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between bg-light">
+            <div class="text-success">
+              <h6 class="my-0">Promo code</h6>
+              <small>EXAMPLECODE</small>
+            </div>
+            <span class="text-success">-$5</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between">
+            <span>Total (USD)</span>
+            <strong>$20</strong>
+          </li>
+        </ul>
+
+        <form class="card p-2">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Promo code">
+            <div class="input-group-append">
+              <button type="submit" class="btn btn-secondary">Redeem</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="col-md-8 order-md-1">
+        <h4 class="mb-3">Billing address</h4>
+        <form class="needs-validation" novalidate>
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label for="firstName">First name</label>
+              <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                Valid first name is required.
+              </div>
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="lastName">Last name</label>
+              <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                Valid last name is required.
+              </div>
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label for="username">Username</label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text">@</span>
+              </div>
+              <input type="text" class="form-control" id="username" placeholder="Username" required>
+              <div class="invalid-feedback" style="width: 100%;">
+                Your username is required.
+              </div>
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label for="email">Email <span class="text-muted">(Optional)</span></label>
+            <input type="email" class="form-control" id="email" placeholder="you@example.com">
+            <div class="invalid-feedback">
+              Please enter a valid email address for shipping updates.
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label for="address">Address</label>
+            <input type="text" class="form-control" id="address" placeholder="1234 Main St" required>
+            <div class="invalid-feedback">
+              Please enter your shipping address.
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label for="address2">Address 2 <span class="text-muted">(Optional)</span></label>
+            <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+          </div>
+
+          <div class="row">
+            <div class="col-md-5 mb-3">
+              <label for="country">Country</label>
+              <select class="custom-select d-block w-100" id="country" required>
+                <option value="">Choose...</option>
+                <option>United States</option>
+              </select>
+              <div class="invalid-feedback">
+                Please select a valid country.
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <label for="state">State</label>
+              <select class="custom-select d-block w-100" id="state" required>
+                <option value="">Choose...</option>
+                <option>California</option>
+              </select>
+              <div class="invalid-feedback">
+                Please provide a valid state.
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <label for="zip">Zip</label>
+              <input type="text" class="form-control" id="zip" placeholder="" required>
+              <div class="invalid-feedback">
+                Zip code required.
+              </div>
+            </div>
+          </div>
+          <hr class="mb-4">
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="same-address">
+            <label class="custom-control-label" for="same-address">Shipping address is the same as my billing address</label>
+          </div>
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="save-info">
+            <label class="custom-control-label" for="save-info">Save this information for next time</label>
+          </div>
+          <hr class="mb-4">
+
+          <h4 class="mb-3">Payment</h4>
+
+          <div class="d-block my-3">
+            <div class="custom-control custom-radio">
+              <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked required>
+              <label class="custom-control-label" for="credit">Credit card</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required>
+              <label class="custom-control-label" for="debit">Debit card</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required>
+              <label class="custom-control-label" for="paypal">PayPal</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label for="cc-name">Name on card</label>
+              <input type="text" class="form-control" id="cc-name" placeholder="" required>
+              <small class="text-muted">Full name as displayed on card</small>
+              <div class="invalid-feedback">
+                Name on card is required
+              </div>
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="cc-number">Credit card number</label>
+              <input type="text" class="form-control" id="cc-number" placeholder="" required>
+              <div class="invalid-feedback">
+                Credit card number is required
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 mb-3">
+              <label for="cc-expiration">Expiration</label>
+              <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
+              <div class="invalid-feedback">
+                Expiration date required
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <label for="cc-cvv">CVV</label>
+              <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+              <div class="invalid-feedback">
+                Security code required
+              </div>
+            </div>
+          </div>
+          <hr class="mb-4">
+          <button class="btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button>
+        </form>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <script>
+      //Disables form submissions if there are invalid fields
+      (function() {
+        'use strict';
+        window.addEventListener('load', function() {
+         // Fetch all the forms we want to apply custom Bootstrap validation styles to
+         var forms = document.getElementsByClassName('needs-validation');
+         // Loop over them and prevent submission
+         var validation = Array.prototype.filter.call(forms, function(form) {
+           form.addEventListener('submit', function(event) {
+             if (form.checkValidity() === false) {
+               event.preventDefault();
+               event.stopPropagation();
+             }
+             form.classList.add('was-validated');
+           }, false);
+         });
+        }, false);
+      })();
+    </script>
+
+  </div>
+
+  <script src="ChaBubbleTea_JS.js"></script>
+  <script src="jquery.js"></script>
+  <script src="jquery.rwdImageMaps.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7J34xzU_ObjXxMrY-Ykej5uH7UR1Jp9M&callback=initMap"></script>
+  
+  
+  <script>
+    $(document).ready(function (e) {
+      $('img[usemap]').rwdImageMaps();
+    });
+  </script>
+</body>
+
+</html>
