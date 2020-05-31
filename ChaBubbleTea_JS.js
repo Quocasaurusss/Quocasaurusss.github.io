@@ -132,7 +132,7 @@ function changePic() {
 
 
 //text that goes along with slideshow////////////////
-var description = document.getElementById('description');
+var description = document.getElementById('description' + fontsize(25));
 var descriptionArray = ["Tiger Sugar Milk Tea", "Mango Black Milk Tea", "cha 3", 
 "cha 4", "cha 7", "Kiwi Punch with Pineapple Whip (new rainbow jelly)", 
 "Matcha Milk Tea with Boba and Red Bean", "Mochi Ice Cream", "Mochi Pops", 
