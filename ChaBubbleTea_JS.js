@@ -141,6 +141,7 @@ var descriptionArray = ["Tiger Sugar Milk Tea", "Mango Black Milk Tea", "cha 3",
 "Strawberry Matcha LAtte", "Strawberry Watermelon Lemonade", "Taro Slush", 
 "Thai Tea", "Tiger Sugar Milk Tea", "Man Black Milk Tea"];
 
+alert("yeet")
 description.innerHTML = descriptionArray[1];
 
 function changeDescription() {
