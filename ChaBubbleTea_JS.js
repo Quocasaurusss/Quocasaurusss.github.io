@@ -132,16 +132,20 @@ function changePic() {
 
 
 //text that goes along with slideshow////////////////
-var description = document.getElementById('description' + fontsize(25));
-var descriptionArray = ["Tiger Sugar Milk Tea", "Mango Black Milk Tea", "cha 3", 
-"cha 4", "cha 7", "Kiwi Punch with Pineapple Whip (new rainbow jelly)", 
-"Matcha Milk Tea with Boba and Red Bean", "Mochi Ice Cream", "Mochi Pops", 
-"Oolong Milk Tea", "Peach-Mango Punch (Pango Punch)", 
-"Pinacolada Slush", "Sparking Passion Lemonade", "Strawberry Lemonade", 
-"Strawberry Matcha LAtte", "Strawberry Watermelon Lemonade", "Taro Slush", 
+var description = document.getElementById('description');
+document.getElementById('description').style.fontSize = "70px"
+var descriptionArray = ["Tiger Sugar Milk Tea", 
+"Mango Black Milk Tea", "cha 3", 
+"cha 4", "cha 7", 
+"Kiwi Punch with Pineapple Whip (new rainbow jelly)", 
+"Matcha Milk Tea with Boba and Red Bean", 
+"Mochi Ice Cream", "Mochi Pops", 
+"Oolong Milk Tea", "Peach-Mango Punch", 
+"Pinacolada Slush", "Sparking Passion Lemonade", 
+"Strawberry Lemonade", "Strawberry Matcha LAtte", 
+"Strawberry Watermelon Lemonade", "Taro Slush", 
 "Thai Tea", "Tiger Sugar Milk Tea", "Man Black Milk Tea"];
 
-alert("yeet")
 description.innerHTML = descriptionArray[1];
 
 function changeDescription() {

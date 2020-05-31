@@ -88,5 +88,6 @@ p, label {
   /*margin: auto makes it so that the map is centered. */
   margin: auto;
   width: 60%;
-  height: 500px;
+  height: 50px;
 }
+
